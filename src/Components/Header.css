@@ -1,0 +1,231 @@
+.carousel-inner .carousel-item {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+  }
+  .carousel-inner .carousel-item:first-of-type {
+    position: relative;
+  }
+  .carousel-inner .active {
+    opacity: 1;
+  }
+
+.carousel {
+    top: 90px;
+}
+
+.carousel-image {
+    filter: brightness(40%);
+}
+
+.header-txt {
+    position: relative;
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    bottom: -100px;
+    z-index: 2;
+    font-weight: 600;
+}
+
+.txt-div {
+    display: flex;
+    flex-direction: column;
+    line-height: 100px;
+    margin-top: -740px;
+}
+
+.sub-header {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    bottom: -100px;
+    text-align: center;
+    z-index: 2;
+}
+
+.header-buttons {
+    display: flex;
+    position: relative;
+    bottom: -100px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.header-buttons > button {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.whole-caro {
+    background-color: rgba(1,1,1,255);
+    overflow: hidden;
+    height: 115vh;
+    margin-top: -100px;
+}
+
+.header-container {
+    background: url(hardscape5.jpeg) center center/cover no-repeat transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    /* height: 101vh; */
+}
+
+.header-wordz {
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-div {
+    margin-top: -310px;
+}
+
+@media screen and (max-width: 1442px) {
+    .carousel {
+        margin-top: -140px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .carousel {
+        margin-top: -90px;
+    }
+}
+
+@media screen and (max-width: 1316px) {
+    .txt-div {
+        margin-top: -750px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .txt-div {
+        margin-top: -720px;
+    }
+
+    .header-txt {
+        font-size: 70px;
+    }
+
+    .sub-header {
+        width: 900px;
+        margin: 0 auto;
+        line-height: 50px;
+    }
+
+    .header-buttons {
+        margin-top: -30px;
+
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .txt-div {
+        
+    }
+}
+@media screen and (max-width: 1060px) {
+    .carousel {
+        margin-top: -40px;
+    }
+}
+@media screen and (max-width: 945px) {
+    .carousel {
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .txt-div {
+        
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .txt-div {
+        
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .sub-header {
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    .txt-div {
+        
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .txt-div {
+        
+    }
+
+    .sub-header {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .header-buttons > button {
+        margin-top: 30px;
+    }
+
+    .whole-caro {
+        background-color: transparent;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 700px) {
+    .txt-div {
+        
+    }
+
+    .header-txt {
+        font-size: 60px;
+    }
+
+    .sub-header {
+        font-size: 25px;
+    }
+
+    .header-buttons > button {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .txt-div {
+        
+    }
+
+    .header-txt {
+        font-size: 50px;
+    }
+
+    .sub-header {
+        font-size: 23px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .header-buttons > button {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .txt-div {
+        
+    }
+}

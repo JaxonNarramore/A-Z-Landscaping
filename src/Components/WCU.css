@@ -1,0 +1,33 @@
+.wcu-container {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.wcu-title {
+    font-size: 55px;
+}
+
+.reason-container {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 20px;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+.reason-container > div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.wcu-images {
+    width: 190px;
+    padding-right: 40px;
+}
+
+#thinking {
+    width: 175px;
+}

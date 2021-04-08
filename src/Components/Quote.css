@@ -1,0 +1,58 @@
+.quote-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius:7px;
+    box-sizing: border-box;
+}
+
+.input-div {
+    padding: 4px;
+}
+
+input, label {
+    display:block;
+}
+
+.firstlast {
+    display: flex;
+}
+
+.vehiclelocation {
+    display: flex;
+}
+
+#email {
+    width: 395px;
+}
+
+#phone {
+    width: 395px;
+}
+
+#description {
+    width: 395px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+.description-label {
+    margin-left: 50px;
+}
+
+.rasdq {
+    text-align: center;
+}
+
+.quote-div {
+    /* position: absolute; */
+    top: 180px;
+    right: 15px;
+    color: white;
+    z-index: 2;
+}

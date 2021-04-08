@@ -1,0 +1,71 @@
+.service-container {
+    z-index: 1;
+    background-color: white;
+}
+
+.os {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+.landscapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hardscapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(238, 238, 238);
+}
+
+.maintenace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services-title {
+    font-size: 50px;
+}
+
+.services-subtitle {
+    font-size: 25px;
+}
+
+.services-div {
+    width: 600px;
+    font-size: 18px;
+}
+
+.learn-more {
+    font-size: 19px;
+}
+
+.services-image {
+    width: 550px;
+    margin-left: 170px;
+}
+
+.services-image-h {
+    width: 550px;
+    margin-right: 170px;
+}
+
+#more-services {
+    font-size: 25px;
+}
+
+.ms-container {
+    text-align: center;
+    padding-bottom: 100px;
+}
