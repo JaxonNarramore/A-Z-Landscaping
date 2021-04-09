@@ -32,6 +32,13 @@
     justify-content: space-evenly;
 }
 
+.services4 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+
 .service-img {
     object-fit: cover;
     width: 300px;

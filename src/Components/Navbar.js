@@ -57,7 +57,7 @@ function Navbar() {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item><Link to='/outdoorliving'>Outdoor Living</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/masonry'>Masonry & Stone</Link></NavDropdown.Item>
+                                    <NavDropdown.Item><Link to='/masonryandstone'>Masonry & Stone</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item><Link to='/maintenence'>Maintenence</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />

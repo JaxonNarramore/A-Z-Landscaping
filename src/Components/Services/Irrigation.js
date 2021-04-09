@@ -12,11 +12,11 @@ export default function Irrigation() {
             <div class="services3">
                 <div class="col">
                     <p className='col-p'>Broken Sprinkler Heads</p>
-                    <img className='service-img' src="Images/patio.jpg" alt="" />
+                    <img className='service-img' src="Images/sprinkler.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Broken Pipes</p>
-                    <img className='service-img' src="Images/firepit.jpg" alt="" />
+                    <img className='service-img' src="Images/pipes.jpg" alt="" />
                 </div>
             </div>
         </div>

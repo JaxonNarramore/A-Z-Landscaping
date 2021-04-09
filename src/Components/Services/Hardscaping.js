@@ -4,7 +4,6 @@ export default function Hardscaping() {
     return (
         <div className='service-container'>
             <div class="service-head">
-                <p className='head1'>COMMERCIAL AND RESIDENTIAL</p>
                 <p className='head2'>HARDSCAPING SERVICES</p>
                 <hr className='divider' />
                 <p className='head-txt'>Custom hardscapes can allow you to expand your entertainment space outdoors. We specialize in custom hardscape design and installations. Whether you’re interested in a patio, fire pit, retaining/seating walls, or walkway we can get it done for you! </p>
