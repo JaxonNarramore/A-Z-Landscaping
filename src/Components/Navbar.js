@@ -39,6 +39,11 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
+                            <Link to='/' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
                             <Link to='/about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 About
                             </Link>
@@ -56,7 +61,7 @@ function Navbar() {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item><Link to='/maintenence'>Maintenence</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/irrigation'>Irrigation</Link></NavDropdown.Item>
+                                    <NavDropdown.Item><Link to='/irrigation'>Irrigation Repair</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item><Link to='/excavation'>Excavation</Link></NavDropdown.Item>
                                 </NavDropdown>
