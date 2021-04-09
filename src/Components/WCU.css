@@ -5,6 +5,14 @@
 
 .wcu-title {
     font-size: 55px;
+    padding-top: 50px;
+}
+
+.title-underline {
+    width: 150px;
+    margin: 0 auto;
+    padding: 2px;
+    color: rgb(0, 162, 255);
 }
 
 .wcu-txt {
@@ -34,8 +42,6 @@
 .reason-container > div {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
     display: flex;
     align-items: center;
 }
@@ -47,4 +53,8 @@
 
 #thinking {
     width: 175px;
+}
+
+.divider {
+    width: 100% !important;
 }

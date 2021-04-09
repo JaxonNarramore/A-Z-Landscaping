@@ -8,6 +8,7 @@ export default function Values() {
                 <div class="everyvalue">
                     <div className='value1-container'>
                         <p className='our-values'>Our Values</p>
+                        <hr className='title-underline' />
                         <div className='vs-container'>
                             <p id='first-value-head' className='value-statement'>
                                 Audio 2 Go’s Core values are the foundation we are built on.

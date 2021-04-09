@@ -51,19 +51,19 @@ function Navbar() {
                         <li className='nav-drop-li'>
                             <Nav id='drop-nav' variant="tabs" className='nav-links'>
                                 <NavDropdown title="Services" id="nav-dropdown">
-                                    <NavDropdown.Item><Link to='/landscaping'>Landscaping</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/landscaping'>Landscaping</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/hardscaping'>Hardscaping</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/hardscaping'>Hardscaping</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/outdoorliving'>Outdoor Living</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/outdoorliving'>Outdoor Living</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/masonryandstone'>Masonry & Stone</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/masonryandstone'>Masonry & Stone</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/maintenence'>Maintenence</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/maintenence'>Maintenence</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/irrigation'>Irrigation Repair</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/irrigation'>Irrigation Repair</Link></NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item><Link to='/excavation'>Excavation</Link></NavDropdown.Item>
+                                    <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/excavation'>Excavation</Link></NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </li>

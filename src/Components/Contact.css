@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(238, 238, 238);
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -42,17 +42,17 @@
 
 .instagram:hover {
     cursor: pointer;
-    color: red;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    color: rgb(0, 162, 255);
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
 }
 
 .facebook:hover {
     cursor: pointer;
-    color: red;
+    color: rgb(0, 162, 255);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -111,8 +111,7 @@
 }
 
 .contact-links:hover {
-    color: red;
-    text-decoration: underline;
+    color: rgb(0, 162, 255);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -132,8 +131,7 @@
 
 .email-link:hover {
     cursor: pointer;
-    color: red;
-    text-decoration: underline;
+    color: rgb(0, 162, 255);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -143,8 +141,7 @@
 
 .number-link:hover {
     cursor: pointer;
-    color: red;
-    text-decoration: underline;
+    color: rgb(0, 162, 255);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -159,8 +156,7 @@
 
 .fotf:hover {
     cursor: pointer;
-    color: red;
-    text-decoration: underline;
+    color: rgb(0, 162, 255);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;

@@ -5,6 +5,7 @@ export default function ServicesHome() {
     return (
         <div className='service-container'>
             <p className='os'>OUR SERVICES</p>
+            <hr className='title-underline' />
             <div className='landscapes'>
                 <div>
                     <h1 className='services-title'>LANDSCAPES</h1>
@@ -31,9 +32,6 @@ export default function ServicesHome() {
                     <p className='learn-more'>LEARN MORE</p>
                 </div>
                 <img className='services-image' src="Images/lawncare.jpeg" alt="" />
-            </div>
-            <div className='ms-container'>
-                <button id='more-services' type="button" class="btn btn-outline-dark">More Services</button>
             </div>
         </div>
     )
