@@ -1,0 +1,33 @@
+.about-container {
+    text-align: center;
+    margin-top: 90px;
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 50px;
+}
+
+.about-comp {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.about-owner {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.abt-head {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.first-p {
+    padding-top: 20px;
+}
+
+.divider {
+    width: 500px;
+}

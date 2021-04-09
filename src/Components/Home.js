@@ -10,7 +10,7 @@ import Projects from './Projects.js'
 export default function Home() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <Header />
             <ServicesHome />
             <WCU />
