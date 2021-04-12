@@ -10,8 +10,8 @@ export default function Home() {
     return (
         <div>
             <Header />
-            <ServicesHome />
             <WCU />
+            <ServicesHome />
             <Values />
             {/* <Projects /> */}
             <Contact />

@@ -24,11 +24,11 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className='about'>
-                        <p className='contact-head'>About </p>
-                        <p className='abt-div'>We are a mobile audio installation service that specializes in anything with a 12-volt system. </p>
+                        <p className='contact-head'>ABOUT</p>
+                        <p className='abt-div'>Founded in 2019, A-Z Landscape & Maintenance, LLC, is a family owned and operated commercial & residential landscape business serving central Texas and surrounding areas.</p>
                     </div>
                     <div className='contact'>
-                        <p className='contact-head'>Contact</p>
+                        <p className='contact-head'>CONTACT</p>
                         <a className='email-link' href="mailto: quotes@audio2goatx.com">
                             <p>quotes@audio2goatx.com</p>
                         </a>
@@ -37,7 +37,7 @@ export default function Contact() {
                         </a>
                     </div>
                     <div id='contact' class="explore">
-                        <p className='contact-head'>Explore</p>
+                        <p className='contact-head'>EXPLORE</p>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Home
                         </Link>
