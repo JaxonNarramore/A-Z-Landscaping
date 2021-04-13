@@ -4,16 +4,18 @@ import Header from './Header.js'
 import ServicesHome from './ServicesHome.js'
 import WCU from './WCU.js'
 import Values from './Values.js'
-import Projects from './Projects.js'
+import PopUp from './PopUp.js'
+import Quote from './Quote.js'
 
 export default function Home() {
     return (
         <div>
+            <PopUp />
             <Header />
             <WCU />
             <ServicesHome />
             <Values />
-            {/* <Projects /> */}
+            <Quote />
             <Contact />
         </div>
     )

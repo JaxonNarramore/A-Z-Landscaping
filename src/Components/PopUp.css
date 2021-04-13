@@ -1,0 +1,62 @@
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+.input-div {
+    padding: 5px;
+}
+
+input, label {
+    display:block;
+}
+
+.firstlast {
+    display: flex;
+}
+
+.lbl {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+#email {
+    width: 395px;
+}
+
+#phone {
+    width: 395px;
+}
+
+#first {
+    width: 190px;
+}
+
+#last {
+    width: 195px;
+}
+
+#description {
+    width: 395px;
+    height: 80px;
+}
+
+.quote-div {
+    margin-top: 0;
+    color: black;
+}
+
+modal-title {
+    margin: 0 auto;
+    font-size: 40px;
+}

@@ -51,7 +51,6 @@ export default function Header() {
                     </div>
                 </div>
                 <div className='quote-div'>
-                    <Quote />
                 </div>
             </div>
         </div>

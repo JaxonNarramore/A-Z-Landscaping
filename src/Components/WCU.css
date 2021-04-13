@@ -21,6 +21,9 @@
     align-items: center;
     align-content: center;
     text-align: center;
+    padding-top: 35px;
+    font-weight: 600;
+    font-size: 23px;
 }
 
 .wcu {
@@ -37,6 +40,7 @@
     font-size: 20px;
     list-style-type: none;
     padding-bottom: 50px;
+    padding-right: 80px;
 }
 
 .reason-container > div {

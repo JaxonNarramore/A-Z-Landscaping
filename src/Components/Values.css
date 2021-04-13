@@ -1,5 +1,5 @@
 .value-container {
-    background-color: white;
+    background-color: rgb(238, 238, 238);
     /* margin-top: -240px; */
     padding-bottom: 50px;
 }
@@ -11,7 +11,7 @@
 .our-values {
     font-size: 55px;
     text-align: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     text-align: center;
     margin-top: 60px;
     color: black;
