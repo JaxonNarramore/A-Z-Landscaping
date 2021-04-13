@@ -64,7 +64,7 @@
 .whole-caro {
     background-color: rgba(1,1,1,255);
     overflow: hidden;
-    height: 115vh;
+    height: 116vh;
     margin-top: -100px;
 }
 
@@ -76,7 +76,7 @@
     flex-direction: column;
     align-items: center;
     background-position: center;
-    background-size: 114vh;
+    background-size: 115vh;
     top: -5px;
 }
 
