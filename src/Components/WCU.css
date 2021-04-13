@@ -38,7 +38,7 @@
     margin: 0 auto;
     font-size: 20px;
     list-style-type: none;
-    padding-right: 60px;
+    padding-right: 25px;
 }
 
 .reason-container > div {
@@ -60,6 +60,12 @@
     width: 100% !important;
 }
 
+
+@media screen and (max-width: 940px) {
+    .wcu-title {
+        padding-top: 50px;
+    }
+}
 
 @media screen and (max-width: 750px) {
     .wcu {

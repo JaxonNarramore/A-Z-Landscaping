@@ -75,7 +75,7 @@ function Navbar() {
                         </li>
                     </ul>
                     {/* {button && <GAQ>Resume</GAQ>} */}
-                    <p>512-888-8888</p>
+                    <p className='nav-num'>512-888-8888</p>
                 </div>
             </nav>
         </div>

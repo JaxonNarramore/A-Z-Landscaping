@@ -50,7 +50,7 @@
     text-align: center;
     width: 65vw;
     justify-content: end;
-    padding-right: 15rem;
+    padding-right: 20rem;
     padding-top: 3rem;
   }
   
@@ -92,7 +92,7 @@
   }
 
   .logo {
-    width: 13vw;
+    width: 200px;
     margin-top: 20px;
   }
   
@@ -128,7 +128,42 @@
   .nav-drop-li {
     height: 45px;
   }
+
+  .nav-num {
+    font-size: 30px;
+    margin-top: 10px;
+  }
   
+  @media screen and (max-width: 1300px) {
+  .nav-menu {
+    padding-right: 15rem;
+  }
+  }
+  
+  @media screen and (max-width: 1165px) {
+  .nav-menu {
+    padding-right: 10rem;
+    grid-gap: 20px;
+  }
+
+  .nav-num {
+    font-size: 27px;
+    margin-right: 15px;
+  }
+  }
+  
+  @media screen and (max-width: 1060px) {
+  .nav-menu {
+    padding-right: 6rem;
+  }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .nav-num {
+      font-size: 25px;
+    }
+  }
+
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
@@ -146,6 +181,7 @@
       transition: all 0.5s ease;
       padding-right: 50px;
       padding-bottom: 230px;
+      grid-gap: 50px;
     }
   
     .nav-menu.active {
@@ -171,9 +207,7 @@
   
     .navbar-logo {
       position: absolute;
-      top: 16px;
       left: 0;
-      transform: translate(25%, 50%);
     }
   
     .menu-icon {
@@ -215,5 +249,9 @@
 
     .navbar {
       height: 95px;
+    }
+
+    .nav-num {
+      visibility: hidden;
     }
   }
