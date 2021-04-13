@@ -15,10 +15,12 @@
 
 .carousel {
     top: 90px;
+    width: 100%;
 }
 
 .carousel-image {
     filter: brightness(40%);
+    width: 100%;
 }
 
 .header-txt {
@@ -35,7 +37,7 @@
     display: flex;
     flex-direction: column;
     line-height: 100px;
-    margin-top: -700px;
+    margin-top: -650px;
 }
 
 .sub-header {
@@ -75,7 +77,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-position: center;
     background-size: 115vh;
     top: -5px;
 }
@@ -89,142 +90,86 @@
     margin-top: -270px;
 }
 
-/* @media screen and (max-width: 1442px) {
-    .carousel {
-        margin-top: -140px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .carousel {
-        margin-top: -90px;
-    }
-}
-
-@media screen and (max-width: 1316px) {
-    .txt-div {
-        margin-top: -750px;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .txt-div {
-        margin-top: -720px;
-    }
-
-    .header-txt {
-        font-size: 70px;
-    }
-
-    .sub-header {
-        width: 900px;
-        margin: 0 auto;
-        line-height: 50px;
-    }
-
-    .header-buttons {
-        margin-top: -30px;
-
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    .txt-div {
-        
-    }
-}
-@media screen and (max-width: 1060px) {
-    .carousel {
-        margin-top: -40px;
-    }
-}
-@media screen and (max-width: 945px) {
-    .carousel {
-        margin-top: 110px;
-    }
-}
-@media screen and (max-width: 990px) {
-    .txt-div {
-        
-    }
-} */
-
 @media screen and (max-width: 940px) {
     .whole-caro {
-        background-color: transparent;
         visibility: hidden;
         width: 100%;
     }
+
+    .header-container {
+        background-size: cover;
+    }
+
+    .sub-header {
+        width: 700px;
+        margin: 0 auto;
+        line-height: 50px;
+        padding-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .header-txt {
+        font-size: 80px;
+    }
 }
 
-/* @media screen and (max-width: 885px) {
-    .sub-header {
-        width: 800px;
-        margin: 0 auto;
-    }
-    
-    .txt-div {
-        
-    }
-} */
-
-/*@media screen and (max-width: 804px) {
-    .txt-div {
-        
-    }
-
+@media screen and (max-width: 670px) {
     .sub-header {
         width: 600px;
         margin: 0 auto;
-    }
-
-    .header-buttons > button {
-        margin-top: 30px;
-    }
-} */
-
-/* @media screen and (max-width: 780px) {
-}
-
-@media screen and (max-width: 700px) {
-    .txt-div {
-        
+        line-height: 60px;
+        padding-bottom: 60px;
+        /* margin-top: 20px; */
     }
 
     .header-txt {
-        font-size: 60px;
+        font-size: 65px;
     }
+}
 
+@media screen and (max-width: 528px) {
     .sub-header {
+        width: 500px;
+        margin: 0 auto;
+        line-height: 60px;
+        padding-bottom: 60px;
         font-size: 25px;
     }
 
+    .header-txt {
+        font-size: 55px;
+    }
+    
     .header-buttons > button {
-        font-size: 21px;
+        font-size: 20px;
+    }
+
+    .header-container {
+        background-size: 115vh;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .txt-div {
-        margin-top: -620px;
+@media screen and (max-width: 375px) {
+    .sub-header {
+        width: 390px;
+        margin: 0 auto;
+        line-height: 60px;
+        padding-bottom: 60px;
+        font-size: 23px;
     }
 
     .header-txt {
-        font-size: 50px;
+        font-size: 42px;
+        line-height: 70px;
+        margin-top: -50px;
+        padding-bottom: 30px;
     }
-
-    .sub-header {
-        font-size: 23px;
-        width: 400px;
-        margin: 0 auto;
-    }
-
+    
     .header-buttons > button {
-        margin-top: 80px;
+        font-size: 20px;
+    }
+
+    .header-container {
+        top: -26px;
     }
 }
-
-@media screen and (max-width: 414px) {
-    .txt-div {
-        
-    }
-} */
