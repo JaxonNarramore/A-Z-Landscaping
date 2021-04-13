@@ -52,11 +52,25 @@ input, label {
 }
 
 .quote-div {
+    color: white;
+    padding-top: 50px;
     margin-top: 0;
-    color: black;
+    padding-bottom: 50px;
+    background-position: center;
+    background-image: url(quote.jpg);
+    background-attachment: fixed;
 }
 
 modal-title {
     margin: 0 auto;
     font-size: 40px;
+}
+
+.rafq {
+    text-align: center;
+    font-size: 40px;
+}
+
+#quote-btn {
+    margin-top: 15px;
 }

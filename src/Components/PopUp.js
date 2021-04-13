@@ -39,7 +39,7 @@ function PopUp() {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <div className='quote-div'>
+                    <div className='quote-container'>
                         <form className="quote-form" onSubmit={sendEmail}>
                             <div class="firstlast">
                                 <div className='input-div'>

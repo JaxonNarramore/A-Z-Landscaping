@@ -5,6 +5,7 @@ import * as Scroll from 'react-scroll';
 import GAQ from './GAQ'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
+
 let ScrollLink = Scroll.Link;
 
 function Navbar() {
@@ -66,11 +67,6 @@ function Navbar() {
                                     <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/excavation'>Excavation</Link></NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='projects' activeClass="active" spy={true} smooth={true} offset={-40} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                Recent Projects
-                            </Link>
                         </li>
                         <li className='nav-item'>
                             <ScrollLink to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
