@@ -10,7 +10,6 @@ import OutdoorLiving from './Components/Services/OutdoorLiving.js'
 import Hardscaping from './Components/Services/Hardscaping.js'
 import Landscaping from './Components/Services/Landscaping.js'
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import PopUp from "./Components/PopUp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <PopUp />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
