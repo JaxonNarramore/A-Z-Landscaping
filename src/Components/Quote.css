@@ -1,5 +1,4 @@
 .quote-form {
-    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,12 +6,15 @@
 }
 
 .input {
-    border-radius:7px;
+    border-radius: 5px;
     box-sizing: border-box;
+    padding: 6px;
+    background-color: rgb(236, 236, 236);
+    border: none;
 }
 
 .input-div {
-    padding: 4px;
+    padding: 5px;
 }
 
 input, label {
@@ -23,8 +25,9 @@ input, label {
     display: flex;
 }
 
-.vehiclelocation {
-    display: flex;
+.lbl {
+    padding-bottom: 5px;
+    font-size: 20px;
 }
 
 #email {
@@ -35,24 +38,25 @@ input, label {
     width: 395px;
 }
 
+#first {
+    width: 190px;
+}
+
+#last {
+    width: 195px;
+}
+
 #description {
     width: 395px;
     height: 80px;
-    margin-left: 50px;
-}
-
-.description-label {
-    margin-left: 50px;
-}
-
-.rasdq {
-    text-align: center;
 }
 
 .quote-div {
-    /* position: absolute; */
-    margin-top: 80px;
-    right: 15px;
-    color: white;
-    z-index: 2;
+    margin-top: 0;
+    color: black;
+}
+
+modal-title {
+    margin: 0 auto;
+    font-size: 40px;
 }

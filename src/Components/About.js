@@ -28,50 +28,52 @@ function About() {
     return (
         <div>
             <Modal
+                size='lg'
                 show={show}
                 onHide={() => setShow(false)}
-                dialogClassName="modal-90w"
-                aria-labelledby="example-custom-modal-styling-title"
+                centered={true}
             >
-                <Modal.Header closeButton>
-                    <Modal.Title id="example-custom-modal-styling-title">
-                        Custom Modal Styling
-            </Modal.Title>
+                <Modal.Header closeButton={true} closeLabel=''>
+                    <Modal.Title as='modal-title'>
+                        Request A Free Quote
+                    </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className='quote-div'>
-                        <h3 className='rasdq'>Request A Free Quote</h3>
                         <form className="quote-form" onSubmit={sendEmail}>
                             <div class="firstlast">
                                 <div className='input-div'>
-                                    <label>First Name</label>
-                                    <input className='input' type="text" name="firstName" />
+                                    <label className='lbl'>First Name</label>
+                                    <input id='first' className='input' type="text" name="firstName" />
                                 </div>
                                 <div className='input-div'>
-                                    <label>Last Name</label>
-                                    <input className='input' type="text" name="lastName" />
+                                    <label className='lbl'>Last Name</label>
+                                    <input id='last' className='input' type="text" name="lastName" />
                                 </div>
                             </div>
                             <div className='input-div'>
-                                <label>Email</label>
+                                <label className='lbl'>Email</label>
                                 <input id='email' className='input' type="email" name="email" />
                             </div>
-                            <div class="vehiclelocation">
-                                <div className='input-div'>
-                                    <label>Vehicle</label>
-                                    <input className='input' type="text" name="vehicle" />
-                                </div>
-                                <div className='input-div'>
-                                    <label>Location</label>
-                                    <input className='input' type="text" name="location" />
-                                </div>
+                            <div className='input-div'>
+                                <label className='lbl'>Service</label>
+                                <select id='email' className='input' name="service" label="Swedish Cars">
+                                    <option disabled selected value> -- Select An Service -- </option>
+                                    <option value="landscaping">Landscaping</option>
+                                    <option value="hardscaping">Hardscaping</option>
+                                    <option value="Maintenance">Maintenance</option>
+                                    <option value="Masonry">Masonry & Stone</option>
+                                    <option value="Outdoorliving">Outdoor Living</option>
+                                    <option value="Irrigation">Irrigation</option>
+                                    <option value="Excavation">Excavation</option>
+                                </select>
                             </div>
                             <div className='input-div'>
-                                <label>Phone Number</label>
-                                <input id='phone' className='input' type="number" name="phone" />
+                                <label className='lbl'>Phone Number</label>
+                                <input id='phone' className='input' type="text" name="phone" />
                             </div>
                             <div className='input-div'>
-                                <label className='description-label'>Description Of Work</label>
+                                <label className='lbl'>Description Of Project</label>
                                 <textarea id='description' className='input' name="description" />
                             </div>
                             <input className='btn btn-outline-primary' type="submit" value="Send" />
