@@ -51,7 +51,7 @@ input, label {
 
 .quote-div {
     /* position: absolute; */
-    top: 180px;
+    margin-top: 80px;
     right: 15px;
     color: white;
     z-index: 2;
