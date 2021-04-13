@@ -19,8 +19,9 @@
 .landscapes {
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 100px;
 }
 
@@ -36,6 +37,7 @@
 .maintenace {
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     align-items: center;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -71,4 +73,60 @@
 .ms-container {
     text-align: center;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1330px) {
+    .landscapes {
+        flex-direction: column;
+    }
+    
+    .hardscapes {
+        flex-direction: column;
+    }
+    
+    .maintenace {
+        flex-direction: column;
+    }
+
+    .services-image {
+        margin-right: 170px;
+        padding-bottom: 30px;
+        width: 500px;
+    }
+    
+    .services-image-h {
+        margin-left: 170px;
+        padding-bottom: 30px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .services-image {
+        width: 400px;
+    }
+    
+    .services-image-h {
+        width: 450px;
+    }
+
+    .services-div {
+        width: 450px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .services-image {
+        width: 350px;
+    }
+    
+    .services-image-h {
+        width: 350px;
+    }
+
+    .services-div {
+        width: 350px;
+        font-size: 18px;
+    }
 }

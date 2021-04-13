@@ -93,7 +93,7 @@
     .carousel {
         margin-top: -140px;
     }
-} */
+}
 
 @media screen and (max-width: 1400px) {
     .carousel {
@@ -146,15 +146,17 @@
     .txt-div {
         
     }
-}
+} */
 
 @media screen and (max-width: 940px) {
-    .txt-div {
-        
+    .whole-caro {
+        background-color: transparent;
+        visibility: hidden;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 885px) {
+/* @media screen and (max-width: 885px) {
     .sub-header {
         width: 800px;
         margin: 0 auto;
@@ -163,9 +165,9 @@
     .txt-div {
         
     }
-}
+} */
 
-@media screen and (max-width: 804px) {
+/*@media screen and (max-width: 804px) {
     .txt-div {
         
     }
@@ -178,14 +180,9 @@
     .header-buttons > button {
         margin-top: 30px;
     }
+} */
 
-    .whole-caro {
-        background-color: transparent;
-        visibility: hidden;
-    }
-}
-
-@media screen and (max-width: 780px) {
+/* @media screen and (max-width: 780px) {
 }
 
 @media screen and (max-width: 700px) {
@@ -230,4 +227,4 @@
     .txt-div {
         
     }
-}
+} */

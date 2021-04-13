@@ -7,13 +7,13 @@ export default function ServicesHome() {
             <p className='os'>OUR SERVICES</p>
             <hr className='title-underline' />
             <div className='landscapes'>
+                <img className='services-image' src="Images/landscape.jpg" alt="" />
                 <div>
                     <h1 className='services-title'>LANDSCAPES</h1>
                     <p className='services-subtitle'>PRECISION CRAFTED</p>
                     <p className='services-div'>We specialize in quality, low maintenance landscapes for your home or business that are designed to fit your personal style</p>
                     <p className='learn-more'>LEARN MORE</p>
                 </div>
-                <img className='services-image' src="Images/landscape.jpg" alt="" />
             </div>
             <div className='hardscapes'>
                 <img className='services-image-h' src="Images/hardscape.jpeg" alt="" />
@@ -25,13 +25,13 @@ export default function ServicesHome() {
                 </div>
             </div>
             <div className='maintenace'>
+                <img className='services-image' src="Images/lawncare.jpeg" alt="" />
                 <div>
                     <h1 className='services-title'>MAINTENACE</h1>
                     <p className='services-subtitle'>BEAUTIFUL YARDS</p>
                     <p className='services-div'>We offer maintenance packages that keep your property looking fresh and clean</p>
                     <p className='learn-more'>LEARN MORE</p>
                 </div>
-                <img className='services-image' src="Images/lawncare.jpeg" alt="" />
             </div>
         </div>
     )
