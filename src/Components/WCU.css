@@ -38,12 +38,11 @@
     margin: 0 auto;
     font-size: 20px;
     list-style-type: none;
-    padding-right: 80px;
+    padding-right: 60px;
 }
 
 .reason-container > div {
     padding-top: 20px;
-    /* padding-bottom: 20px; */
     display: flex;
     align-items: center;
 }
@@ -59,4 +58,15 @@
 
 .divider {
     width: 100% !important;
+}
+
+
+@media screen and (max-width: 750px) {
+    .wcu {
+        flex-direction: column;
+    }
+
+    .reason-container {
+        padding-right: 0px;
+    }
 }
