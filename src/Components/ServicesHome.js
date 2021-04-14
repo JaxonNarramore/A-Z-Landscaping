@@ -3,7 +3,7 @@ import './ServicesHome.css'
 
 export default function ServicesHome() {
     return (
-        <div className='service-container'>
+        <div id='servicez' className='service-container'>
             <p className='os'>OUR SERVICES</p>
             <hr className='title-underline' />
             <div className='landscapes'>

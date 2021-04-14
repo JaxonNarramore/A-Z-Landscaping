@@ -3,7 +3,7 @@ import './WCU.css'
 
 export default function WCU() {
     return (
-        <div className='wcu-container'>
+        <div id='wcu' className='wcu-container'>
             <p className='wcu-title'>WHY CHOOSE US?</p>
             <hr className='title-underline' />
             <div className='reason-container'>

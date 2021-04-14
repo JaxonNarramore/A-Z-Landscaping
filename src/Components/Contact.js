@@ -6,14 +6,14 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Contact() {
     return (
-        <div id='quotes'>
+        <div id='contact' >
             <div class="whole-contact">
                 <div class="contact-container">
                     <div className='footer-logo'>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
                             <img className='footLogo' src="Images/logo3.png" alt="" />
                         </Link>
-                        <p className='fill-out-form'><Link className='fotf' to='quotes' activeClass="active" spy={true} smooth={true} offset={-75} duration={100} >Fill out the form</Link> above or <a className='number-link' href="tel:+5125882677">give us a call</a> for a free same day quote!</p>
+                        <p className='fill-out-form'><Link className='fotf' to='quotes' activeClass="active" spy={true} smooth={true} offset={-75} duration={100} >Fill out the form</Link> above or <a className='number-link' href="tel:+5125882677">give us a call</a> for a free quote!</p>
                         <div className='icons'>
                             <a href="https://www.facebook.com/Audio2GoATX/" target='_blank'>
                                 <AiOutlineFacebook className='facebook' />
@@ -36,24 +36,21 @@ export default function Contact() {
                             <p>512-588-2677</p>
                         </a>
                     </div>
-                    <div id='contact' class="explore">
+                    <div class="explore">
                         <p className='contact-head'>EXPLORE</p>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Home
                         </Link>
-                        <Link to='values' activeClass="active" spy={true} smooth={true} offset={1} duration={100} className='contact-links'>
-                            Our Values
+                        <Link to='wcu' activeClass="active" spy={true} smooth={true} offset={-120} duration={100} className='contact-links'>
+                            Why Choose Us?
                         </Link>
-                        <Link to='services' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
+                        <Link to='servicez' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
                             Our Services
                         </Link>
-                        <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
-                            Recent Installs
+                        <Link to='values' activeClass="active" spy={true} smooth={true} offset={-50} duration={100} className='contact-links'>
+                            Our Values
                         </Link>
-                        <Link to='brands' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
-                            Our Brands
-                        </Link>
-                        <Link to='quotes' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
+                        <Link to='quote' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
                             Get A Quote
                         </Link>
                     </div>

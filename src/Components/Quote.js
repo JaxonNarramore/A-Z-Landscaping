@@ -17,7 +17,7 @@ export default function Quote() {
     }
 
     return (
-        <div className='quote-div'>
+        <div id='quote' className='quote-div'>
             <p class='rafq'>Request A Free Quote</p>
             <form className="quote-form" onSubmit={sendEmail}>
                 <div class="firstlast">

@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import './Header.css'
-import Quote from './Quote'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
     return (
@@ -46,8 +46,8 @@ export default function Header() {
                     <p className='header-txt'>& MAINTENENCE</p>
                     <p className='sub-header'>AUSTIN AREA COMMERCIAL AND RESIDENTIAL LANDSCAPING</p>
                     <div className='header-buttons'>
-                        <button type="button" class="btn btn-outline-light">Get A Quote</button>
-                        <button type="button" class="btn btn-outline-light">Our Services</button>
+                        <Link id='buttonid' to='quote' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Get A Quote</button></Link>
+                        <Link id='buttonid' to='servicez' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Our Services</button></Link>
                     </div>
                 </div>
                 <div className='quote-div'>
