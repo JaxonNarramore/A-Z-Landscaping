@@ -34,6 +34,10 @@ input, label {
     width: 395px;
 }
 
+#service {
+    width: 395px;
+}
+
 #phone {
     width: 395px;
 }
@@ -74,3 +78,30 @@ modal-title {
 #quote-btn {
     margin-top: 15px;
 }
+
+@media screen and (max-width: 390px) {
+    #email {
+        width: 350px;
+    }
+    
+    #service {
+        width: 350px;
+    }
+    
+    #phone {
+        width: 350px;
+    }
+    
+    #first {
+        width: 166px;
+    }
+    
+    #last {
+        width: 171px;
+    }
+    
+    #description {
+        width: 350px;
+        height: 120px;
+    }
+  }

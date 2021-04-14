@@ -49,7 +49,7 @@ function Navbar() {
                                 About
                             </Link>
                         </li>
-                        <li className='nav-drop-li'>
+                        <li className='nav-drop-li nav-item'>
                             <Nav id='drop-nav' variant="tabs" className='nav-links'>
                                 <NavDropdown title="Services" id="nav-dropdown">
                                     <NavDropdown.Item className='drop-item'><Link className='nav-drop-link' to='/landscaping'>Landscaping</Link></NavDropdown.Item>
