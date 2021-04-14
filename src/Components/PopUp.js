@@ -57,7 +57,7 @@ function PopUp() {
                             </div>
                             <div className='input-div'>
                                 <label className='lbl'>Service</label>
-                                <select id='email' className='input' name="service" label="Swedish Cars">
+                                <select id='service' className='input' name="service" label="Swedish Cars">
                                     <option disabled selected value> -- Select An Service -- </option>
                                     <option value="landscaping">Landscaping</option>
                                     <option value="hardscaping">Hardscaping</option>

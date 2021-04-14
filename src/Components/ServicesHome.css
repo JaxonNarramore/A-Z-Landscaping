@@ -21,16 +21,16 @@
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .hardscapes {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -39,8 +39,8 @@
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .services-title {
@@ -129,4 +129,13 @@
         width: 350px;
         font-size: 18px;
     }
+
+    .services-title {
+        font-size: 40px;
+    }
+
+    .os {
+        font-size: 47px;
+    }
+    
 }

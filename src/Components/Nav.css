@@ -227,9 +227,8 @@
     }
   
     .nav-links:hover {
-      background-color: white;
-      color: #242424;
-      border-radius: 0;
+      color: rgb(0, 162, 255);
+      border-bottom: 0px;
     }
   
     .navbar-logo {
