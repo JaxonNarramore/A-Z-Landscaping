@@ -1,4 +1,4 @@
-# A-Z Landscaping Business Website
+# A-Z Landscaping
 
 A-Z Landscape & Maintenance, LLC, is a family owned and operated commercial & residential landscape business serving central Texas and surrounding areas.
 
