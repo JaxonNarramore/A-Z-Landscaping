@@ -10,7 +10,7 @@ function PopUp() {
     useEffect(() => {
         setTimeout(() => {
             setShow(true)
-        }, 2000);
+        }, 5000);
     }, []);
 
     function sendEmail(e) {
@@ -26,7 +26,7 @@ function PopUp() {
     }
 
     return (
-        <div>
+        <div className='whole-popup'>
             <Modal
                 size='lg'
                 show={show}
@@ -76,7 +76,7 @@ function PopUp() {
                                 <label className='lbl'>Description Of Project</label>
                                 <textarea id='description' className='input' name="description" />
                             </div>
-                            <input className='btn btn-outline-primary' type="submit" value="Send" />
+                            <input className='btn btn-outline-dark' type="submit" value="Send" />
                         </form>
                     </div>
                 </Modal.Body>
