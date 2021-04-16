@@ -1,10 +1,10 @@
-#A-Z Landscaping Business Website
+# A-Z Landscaping Business Website
 
 A-Z Landscape & Maintenance, LLC, is a family owned and operated commercial & residential landscape business serving central Texas and surrounding areas.
 
 ## [Live site](https://a-z-landscaping.herokuapp.com/)
 
-##Installation
+## Installation
 
 1. Fork and clone this repository
 2. Go to the directory on your local machine
