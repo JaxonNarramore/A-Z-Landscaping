@@ -15,6 +15,7 @@
 
 .input-div {
     padding: 5px;
+    padding-bottom: 15px;
 }
 
 input, label {
@@ -65,6 +66,12 @@ modal-title {
     font-size: 40px;
 }
 
+#modal-btn {
+    width: 200px;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
 @media screen and (max-width: 390px) {
     #email {
         width: 350px;
@@ -89,5 +96,10 @@ modal-title {
     #description {
         width: 350px;
         height: 120px;
+    }
+
+    modal-title {
+        margin: 0 auto;
+        font-size: 31px;
     }
   }

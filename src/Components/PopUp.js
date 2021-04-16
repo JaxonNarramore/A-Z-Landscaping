@@ -76,7 +76,7 @@ function PopUp() {
                                 <label className='lbl'>Description Of Project</label>
                                 <textarea id='description' className='input' name="description" />
                             </div>
-                            <input className='btn btn-outline-dark' type="submit" value="Send" />
+                            <input id='modal-btn' className='btn btn-outline-dark' type="submit" value="Submit" />
                         </form>
                     </div>
                 </Modal.Body>

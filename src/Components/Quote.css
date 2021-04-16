@@ -104,4 +104,9 @@ modal-title {
         width: 350px;
         height: 120px;
     }
+
+    modal-title {
+        margin: 0 auto;
+        font-size: 38px;
+    }
   }
