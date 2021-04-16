@@ -69,9 +69,10 @@ function Navbar() {
                             </Nav>
                         </li>
                         <li className='nav-item'>
-                            <ScrollLink to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            {/* <ScrollLink to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Contact
-                            </ScrollLink>
+                            </ScrollLink> */}
+                            <a className='nav-links' href="/#contact" onClick={closeMobileMenu}>Contact</a>
                         </li>
                     </ul>
                     <p className='nav-num'>512-888-8888</p>

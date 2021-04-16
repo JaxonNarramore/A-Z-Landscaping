@@ -7,7 +7,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Contact() {
     return (
         <div id='contact' >
-            <div class="whole-contact">
+            <div id='#' class="whole-contact">
                 <div class="contact-container">
                     <div className='footer-logo'>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
