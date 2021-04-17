@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './ServicesHome.css'
 
 export default function ServicesHome() {
@@ -12,7 +13,9 @@ export default function ServicesHome() {
                     <h1 className='services-title'>LANDSCAPES</h1>
                     <p className='services-subtitle'>PRECISION CRAFTED</p>
                     <p className='services-div'>We specialize in quality, low maintenance landscapes for your home or business that are designed to fit your personal style</p>
-                    <p className='learn-more'>LEARN MORE</p>
+                    <Link className='lm-link' to='/landscaping'>
+                        <p className='learn-more'>LEARN MORE</p>
+                    </Link>
                 </div>
             </div>
             <div className='hardscapes'>
@@ -21,7 +24,9 @@ export default function ServicesHome() {
                     <h1 className='services-title'>HARDSCAPES</h1>
                     <p className='services-subtitle'>BUILT TO LAST</p>
                     <p className='services-div'>Custom hardscapes can allow you to expand your entertainment space outdoors. We specialize in custom hardscape design and installations.</p>
-                    <p className='learn-more'>LEARN MORE</p>
+                    <Link className='lm-link' to='/hardscaping'>
+                        <p className='learn-more'>LEARN MORE</p>
+                    </Link>
                 </div>
             </div>
             <div className='maintenace'>
@@ -30,7 +35,9 @@ export default function ServicesHome() {
                     <h1 className='services-title'>MAINTENACE</h1>
                     <p className='services-subtitle'>BEAUTIFUL YARDS</p>
                     <p className='services-div'>We offer maintenance packages that keep your property looking fresh and clean</p>
-                    <p className='learn-more'>LEARN MORE</p>
+                    <Link className='lm-link' to='/maintenence'>
+                        <p className='learn-more'>LEARN MORE</p>
+                    </Link>
                 </div>
             </div>
         </div>

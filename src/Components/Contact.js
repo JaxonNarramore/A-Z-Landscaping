@@ -15,10 +15,10 @@ export default function Contact() {
                         </Link>
                         <p className='fill-out-form'><Link className='fotf' to='quotes' activeClass="active" spy={true} smooth={true} offset={-75} duration={100} >Fill out the form</Link> above or <a className='number-link' href="tel:+5125882677">give us a call</a> for a free quote!</p>
                         <div className='icons'>
-                            <a href="https://www.facebook.com/Audio2GoATX/" target='_blank'>
+                            <a href="https://www.facebook.com/atozlandscapeandmaintenance/" target='_blank'>
                                 <AiOutlineFacebook className='facebook' />
                             </a>
-                            <a href="https://www.instagram.com/audio2goatx/" target='_blank'>
+                            <a href="https://www.instagram.com/a_zlandscape/?igshid=1a6fezg7wyr61" target='_blank'>
                                 <SiInstagram className='instagram' />
                             </a>
                         </div>

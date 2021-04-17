@@ -58,6 +58,23 @@
 
 .learn-more {
     font-size: 19px;
+    color: black;
+}
+
+.lm-link {
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    cursor: pointer;
+    color: rgb(0, 162, 255);
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
+    font-weight: 700;
+    transition: all 0.2s ease-out;
 }
 
 .services-image {

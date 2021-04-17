@@ -75,7 +75,7 @@
 
 .header-container {
     position: relative;
-    background: url(hardscape5.jpeg) center center/cover no-repeat transparent;
+    background: url(darkmobile.jpg) center center/cover no-repeat transparent;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@
 
 @media screen and (max-width: 375px) {
     .sub-header {
-        width: 390px;
+        width: 360px;
         margin: 0 auto;
         line-height: 60px;
         padding-bottom: 60px;
