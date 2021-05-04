@@ -47,7 +47,7 @@ function Navbar() {
                         <li className='nav-item'>
                             <Link to='/about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 About
-                        </Link>
+                            </Link>
                         </li>
                         <li className='nav-drop-li nav-item'>
                             <Nav id='drop-nav' variant="tabs" className='nav-links'>
@@ -75,7 +75,9 @@ function Navbar() {
                             <a className='nav-links' href="/#contact" onClick={closeMobileMenu}>Contact</a>
                         </li>
                     </ul>
-                    <p className='nav-num'>512-888-8888</p>
+                    <a className='nav-num' href="tel:5128189958" >
+                        <p class='phone-number' href="tel:5128189958" >512-818-9958</p>
+                    </a>
                 </div>
             </nav>
         </div>

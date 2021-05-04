@@ -16,7 +16,7 @@ export default function Landscaping() {
                 </div>
                 <div class="col">
                     <p className='col-p'>Tree Planting</p>
-                    <img className='service-img' src="Images/tree.jpg" alt="" />
+                    <img className='service-img' src="Images/plant.JPG" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Annual & Perennial Planting</p>
@@ -24,13 +24,13 @@ export default function Landscaping() {
                 </div>
                 <div class="col">
                     <p className='col-p'>Decorative Rock Installation</p>
-                    <img className='service-img' src="Images/rock.jpg" alt="" />
+                    <img className='service-img' src="Images/masonry24.jpg" alt="" />
                 </div>
             </div>
             <div class="services2">
                 <div class="col">
-                    <p className='col-p'>Mulch, Compost, & Dirt Installation</p>
-                    <img className='service-img' src="Images/mulch.jpg" alt="" />
+                    <p className='col-p'>Mulch & Compost Installation</p>
+                    <img className='service-img' src="Images/stonez.JPG" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Sod Installation</p>

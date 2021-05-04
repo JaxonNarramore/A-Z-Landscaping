@@ -110,3 +110,35 @@ modal-title {
         font-size: 38px;
     }
   }
+
+@media screen and (max-width: 390px) {
+    #email {
+        width: 300px;
+    }
+    
+    #service {
+        width: 300px;
+    }
+    
+    #phone {
+        width: 300px;
+    }
+    
+    #first {
+        width: 135px;
+    }
+    
+    #last {
+        width: 155px;
+    }
+    
+    #description {
+        width: 300px;
+        height: 120px;
+    }
+
+    modal-title {
+        margin: 0 auto;
+        font-size: 38px;
+    }
+  }

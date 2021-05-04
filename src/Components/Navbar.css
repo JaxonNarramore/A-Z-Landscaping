@@ -139,6 +139,12 @@
     margin-top: 10px;
     position: absolute;
     right: 70px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .phone-number {
+    text-decoration: none;
   }
 
   .nav-num:hover {
@@ -172,23 +178,12 @@
     padding-right: 10rem;
     grid-gap: 20px;
   }
-
-  .nav-num {
-  }
   }
   
   @media screen and (max-width: 1060px) {
   .nav-menu {
     padding-right: 10rem;
   }
-
-  .nav-num {
-  }
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .nav-num {
-    }
   }
 
   @media screen and (max-width: 960px) {

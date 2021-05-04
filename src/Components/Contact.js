@@ -29,11 +29,11 @@ export default function Contact() {
                     </div>
                     <div className='contact'>
                         <p className='contact-head'>CONTACT</p>
-                        <a className='email-link' href="mailto: quotes@audio2goatx.com">
-                            <p>quotes@audio2goatx.com</p>
+                        <a className='email-link' href="mailto: alex.sanchez@a-zlandscape.com">
+                            <p>alex.sanchez@a-zlandscape.com</p>
                         </a>
-                        <a className='number-link' href="tel:+5125882677">
-                            <p>512-588-2677</p>
+                        <a className='number-link' href="tel:5128189958">
+                            <p>512-818-9958</p>
                         </a>
                     </div>
                     <div class="explore">

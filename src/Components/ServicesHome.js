@@ -8,7 +8,7 @@ export default function ServicesHome() {
             <p className='os'>OUR SERVICES</p>
             <hr className='title-underline' />
             <div className='landscapes'>
-                <img className='services-image' src="Images/landscape.jpg" alt="" />
+                <img className='services-image' src="Images/landscapes3.jpg" alt="" />
                 <div>
                     <h1 className='services-title'>LANDSCAPES</h1>
                     <p className='services-subtitle'>PRECISION CRAFTED</p>
@@ -19,7 +19,7 @@ export default function ServicesHome() {
                 </div>
             </div>
             <div className='hardscapes'>
-                <img className='services-image-h' src="Images/hardscape.jpeg" alt="" />
+                <img className='services-image-h' src="Images/hardscape42.jpeg" alt="" />
                 <div>
                     <h1 className='services-title'>HARDSCAPES</h1>
                     <p className='services-subtitle'>BUILT TO LAST</p>

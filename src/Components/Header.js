@@ -5,22 +5,29 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
     return (
-        <div class="header-container">
+        <div id='header' class="header-container">
             <div className='whole-caro'>
                 <div>
                     <Carousel fade={true} controls={false} className='carousel' indicators={false}>
                         <Carousel.Item interval={3000}>
                             <img
                                 className="d-block w-100 carousel-image"
-                                src="Images/hardscape2.jpeg"
+                                src="Images/masonry11.JPG"
                                 alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item interval={3000}>
                             <img
                                 className="d-block w-100 carousel-image"
-                                src="Images/idk.jpeg"
+                                src="Images/masonry24.JPG"
                                 alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/render.JPG"
+                                alt="Fourth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item interval={3000}>
@@ -33,7 +40,21 @@ export default function Header() {
                         <Carousel.Item interval={3000}>
                             <img
                                 className="d-block w-100 carousel-image"
-                                src="Images/masonry25.JPG"
+                                src="Images/masonry.JPG"
+                                alt="Fourth slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/render4.jpeg"
+                                alt="Fourth slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/masonry24.JPG"
                                 alt="Fourth slide"
                             />
                         </Carousel.Item>
@@ -42,9 +63,9 @@ export default function Header() {
             </div>
             <div class="header-wordz">
                 <div className='txt-div'>
-                    <p className='header-txt'>A-Z LANDSCAPE</p>
+                    <p id='onehead' className='header-txt'>A-Z LANDSCAPE</p>
                     <p className='header-txt'>& MAINTENENCE</p>
-                    <p className='sub-header'>AUSTIN AREA COMMERCIAL AND RESIDENTIAL LANDSCAPING</p>
+                    <p className='sub-header'>SERVING CENTRAL TEXAS AND SURROUNDING AREAS</p>
                     <div className='header-buttons'>
                         <Link id='buttonid' to='quote' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Get A Quote</button></Link>
                         <Link id='buttonid' to='servicez' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Our Services</button></Link>

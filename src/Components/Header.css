@@ -19,7 +19,7 @@
 }
 
 .carousel-image {
-    filter: brightness(40%);
+    filter: brightness(38%);
     width: 100%;
 }
 
@@ -75,7 +75,7 @@
 
 .header-container {
     position: relative;
-    background: url(darkmobile.jpg) center center/cover no-repeat transparent;
+    background: url(masonry12.JPG) center center/cover no-repeat transparent;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -91,6 +91,29 @@
 
 .quote-div {
     margin-top: -270px;
+}
+
+@media screen and (max-width: 1440px) {
+    .sub-header {
+        width: 1000px;
+        margin: 0 auto;
+        line-height: 50px;
+        padding-bottom: 60px;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .header-txt {
+        font-size: 100px;
+        padding-bottom: 50px;
+        margin-top: -50px;
+    }
+}
+
+@media screen and (height: 1024px) {
+    .header-container {
+        background-size: 100vh;
+    }
 }
 
 @media screen and (max-width: 940px) {
@@ -152,6 +175,28 @@
     }
 }
 
+@media screen and (max-width: 414px) {
+    .sub-header {
+        width: 350px;
+        margin: 0 auto;
+        line-height: 60px;
+        padding-bottom: 60px;
+        font-size: 23px;
+    }
+
+    .header-txt {
+        font-size: 40px;
+        line-height: 70px;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .header-container {
+        width: 100%;
+        top: -15px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .sub-header {
         width: 360px;
@@ -164,11 +209,61 @@
     .header-txt {
         font-size: 42px;
         line-height: 70px;
-        margin-top: -50px;
+        margin-top: 0px;
         padding-bottom: 30px;
     }
 
     .header-container {
         top: -26px;
+    }
+
+    #onehead {
+        margin-top: -60px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .sub-header {
+        width: 360px;
+        margin: 0 auto;
+        line-height: 60px;
+        padding-bottom: 60px;
+        font-size: 23px;
+    }
+
+    .header-txt {
+        font-size: 42px;
+        line-height: 70px;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .header-container {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .sub-header {
+        width: 300px;
+        margin: 0 auto;
+        line-height: 60px;
+        padding-bottom: 60px;
+        font-size: 23px;
+    }
+
+    .header-txt {
+        font-size: 37px;
+        line-height: 70px;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    #onehead {
+        margin-top: 100px;
+    }
+
+    .header-container {
+        top: 10px;
     }
 }

@@ -35,7 +35,7 @@ export default function Excavation() {
                 </div>
                 <div class="col">
                     <p className='col-p'>Driveway Installation & Extensions</p>
-                    <img className='service-img' src="Images/masonry12.JPG" alt="" />
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
                 </div>
             </div>
         </div>
