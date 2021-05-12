@@ -8,7 +8,7 @@ export default function Excavation() {
                 <p className='head1'>COMMERCIAL AND RESIDENTIAL</p>
                 <p className='head2'>EXCAVATION SERVICES</p>
                 <hr className='divider' />
-                <p className='head-txt'>Need to write this</p>
+                {/* <p className='head-txt'>Need to write this</p> */}
             </div>
             <div class="services">
                 <div class="col">

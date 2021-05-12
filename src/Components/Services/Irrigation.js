@@ -7,7 +7,7 @@ export default function Irrigation() {
                 <p className='head1'>COMMERCIAL AND RESIDENTIAL</p>
                 <p className='head2'>IRRIGATION REPAIR SERVICES</p>
                 <hr className='divider' />
-                <p className='head-txt'>Inset text here</p>
+                {/* <p className='head-txt'>Inset text here</p> */}
             </div>
             <div class="services3">
                 <div class="col">

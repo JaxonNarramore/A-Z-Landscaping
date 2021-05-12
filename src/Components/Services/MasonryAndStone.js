@@ -6,7 +6,7 @@ export default function MasonryAndStone() {
             <div class="service-head">
                 <p className='head2'>MASONRY & STONE</p>
                 <hr className='divider' />
-                <p className='head-txt'>inset text here</p>
+                {/* <p className='head-txt'>inset text here</p> */}
             </div>
             <div class="services4">
                 <div class="col">
