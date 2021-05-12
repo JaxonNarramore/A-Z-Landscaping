@@ -19,7 +19,7 @@ export default function Landscaping() {
                 </div>
                 <div class="col">
                     <p className='col-p'>Tree Planting</p>
-                    <img className='service-img' src="Images/plant.JPG" alt="" />
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Annual & Perennial Planting</p>
@@ -27,7 +27,7 @@ export default function Landscaping() {
                 </div>
                 <div class="col">
                     <p className='col-p'>Decorative Rock Installation</p>
-                    <img className='service-img' src="Images/masonry24.jpg" alt="" />
+                    <img className='service-img' src="Images/masonry24.jpeg" alt="" />
                 </div>
             </div>
             <div class="services2">

@@ -51,13 +51,6 @@ export default function Header() {
                                 alt="Fourth slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item interval={3000}>
-                            <img
-                                className="d-block w-100 carousel-image"
-                                src="Images/masonry24.JPG"
-                                alt="Fourth slide"
-                            />
-                        </Carousel.Item>
                     </Carousel>
                 </div>
             </div>
