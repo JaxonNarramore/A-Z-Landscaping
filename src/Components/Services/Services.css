@@ -7,6 +7,39 @@
     padding-top: 50px;
 }
 
+/* .landscapehead {
+    height: 600px;
+    filter: brightness(50%);
+    margin-top: -300px;
+    z-index: -1;
+} */
+
+.landscapehead {
+    height: 600px;
+    margin-top: -300px;
+    filter: brightness(50%);
+    background-position: center;
+    background-image: url(landscapehead.jpg);
+    background-attachment: fixed;
+}
+
+.landscape-txt {
+    font-size: 70px;
+    color: white;
+    position: relative;
+    margin-top: -200px;
+    padding-bottom: 80px;
+    z-index: 200;
+    font-weight: 600;
+}
+
+#divider {
+    width: 60px;
+    margin: 0 auto;
+    border-width: 5px;
+    border-top: 4px solid #1f98f4;
+}
+
 .services {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -54,10 +87,22 @@
     font-weight: 600;
 }
 
+#hard-div {
+    padding-bottom: 75px;
+}
+
+#outdoor-p {
+    padding-bottom: 130px;
+}
+
+#outdoor-head {
+    padding-bottom: 22px;
+}
+
 .head-txt {
     font-size: 25px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     width: 70%;
     margin: 0 auto;
 }

@@ -4,12 +4,14 @@ import './Services.css'
 export default function Excavation() {
     return (
         <div className='service-container'>
+            <div className='landscapehead'></div>
+            <p className='landscape-txt'>EXCAVATION</p>
             <div class="service-head">
                 <p className='head1'>COMMERCIAL AND RESIDENTIAL</p>
-                <p className='head2'>EXCAVATION SERVICES</p>
-                <hr className='divider' />
+                <p className='head2'>EXCAVATION</p>
                 {/* <p className='head-txt'>Need to write this</p> */}
             </div>
+            <hr className='divider' />
             <div class="services">
                 <div class="col">
                     <p className='col-p'>Grading</p>

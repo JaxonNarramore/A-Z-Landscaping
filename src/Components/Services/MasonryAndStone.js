@@ -3,11 +3,13 @@ import React from 'react'
 export default function MasonryAndStone() {
     return (
         <div className='service-container'>
+            <div className='landscapehead'></div>
+            <p className='landscape-txt'>MASONRY & STONE</p>
             <div class="service-head">
                 <p className='head2'>MASONRY & STONE</p>
-                <hr className='divider' />
                 {/* <p className='head-txt'>inset text here</p> */}
             </div>
+            <hr className='divider' />
             <div class="services4">
                 <div class="col">
                     <p className='col-p'>Flower Bed Bordering</p>

@@ -3,12 +3,15 @@ import React from 'react'
 export default function Landscaping() {
     return (
         <div className='service-container'>
+            <div className='landscapehead'></div>
+            <p className='landscape-txt'>LANDSCAPING</p>
             <div class="service-head">
                 <p className='head1'>COMMERCIAL AND RESIDENTIAL</p>
                 <p className='head2'>LANDSCAPING SERVICES</p>
-                <hr className='divider' />
-                <p className='head-txt'>We specialize in Quality low maintenance landscapes for your home or business that are designed to fit your personal style.</p>
+                <hr id='divider' />
+                <p className='head-txt'>We specialize in quality, low maintenance landscapes for your home or business that are designed to fit your personal style.</p>
             </div>
+            <hr className='divider' />
             <div class="services">
                 <div class="col">
                     <p className='col-p'>Shrub & Bush Planting</p>

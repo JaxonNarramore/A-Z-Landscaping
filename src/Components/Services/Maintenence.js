@@ -3,12 +3,14 @@ import React from 'react'
 export default function Maintenence() {
     return (
         <div className='service-container'>
+            <div className='landscapehead'></div>
+            <p className='landscape-txt'>MAINTENENCE</p>
             <div class="service-head">
                 <p className='head1'>COMMERCIAL AND RESIDENTIAL</p>
                 <p className='head2'>MAINTENENCE</p>
-                <hr className='divider' />
                 <p className='head-txt'>We offer maintenance packages that keep your property looking fresh and clean</p>
             </div>
+            <hr className='divider' />
             <div class="services">
                 <div class="col">
                     <p className='col-p'>Commercial Maintence Plans</p>
