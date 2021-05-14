@@ -25,10 +25,10 @@
 
 .header-txt {
     position: relative;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     color: white;
-    bottom: -100px;
+    bottom: -120px;
     z-index: 2;
     font-weight: 600;
 }
@@ -36,8 +36,8 @@
 .txt-div {
     display: flex;
     flex-direction: column;
-    line-height: 100px;
-    margin-top: -650px;
+    line-height: 50px;
+    margin-top: -550px;
 }
 
 .sub-header {
@@ -52,7 +52,7 @@
 .header-buttons {
     display: flex;
     position: relative;
-    bottom: -100px;
+    bottom: -80px;
     justify-content: center;
     z-index: 2;
 }
@@ -265,5 +265,18 @@
 
     .header-container {
         top: 10px;
+    }
+}
+
+@media screen and (max-height: 685px) {
+    .header-txt {
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-height: 789px) {
+    .header-txt {
+        margin-top: -10px;
+        line-height: 50px;
     }
 }

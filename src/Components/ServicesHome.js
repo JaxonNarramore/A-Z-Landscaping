@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './ServicesHome.css'
+import lax from 'lax.js'
 
 export default function ServicesHome() {
     return (
@@ -9,7 +10,7 @@ export default function ServicesHome() {
             <hr className='title-underline' />
             <div className='landscapes'>
                 <img className='services-image' src="Images/landscapes3.jpg" alt="" />
-                <div>
+                <div class='class="lax lax_preset_fadeIn:50:100 lax_preset_spin"'>
                     <h1 className='services-title'>LANDSCAPES</h1>
                     <p className='services-subtitle'>PRECISION CRAFTED</p>
                     <p className='services-div'>We specialize in quality, low maintenance landscapes for your home or business that are designed to fit your personal style</p>

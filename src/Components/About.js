@@ -4,8 +4,10 @@ import './About.css'
 export default function About() {
     return (
         <div className='about-container'>
+            <div className='landscapehead'></div>
+            <p className='landscape-txt'>ABOUT</p>
             <div class="about-comp">
-                <p className='abt-head'>ABOUT COMPANY</p>
+                <p id='first-abt-head' className='abt-head'>ABOUT COMPANY</p>
                 <hr className='divider' />
                 <p className='first-p'>Founded in 2019, A-Z Landscape & Maintenance, LLC, is a family owned and operated commercial & residential landscape business serving central Texas and surrounding areas.</p>
                 <p>A-Z strives to design, build, and maintain quality projects and services throughout our community, treating the customers we work with as we would want to be treated, leaving quality service and respect at their homes and businesses for years to come.</p>

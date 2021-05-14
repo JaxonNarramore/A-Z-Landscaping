@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/logo.ico" />
+  <link rel="icon" href="%PUBLIC_URL%/icon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="A-Z Landscape & Maintenance is a lawn care company located in Leander, Tx." />
@@ -46,6 +46,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+  <script>
+    window.onload = function () {
+      lax.setup()
+
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
+      window.requestAnimationFrame(updateLax)
+    }
+  </script>
 </body>
 
 </html>

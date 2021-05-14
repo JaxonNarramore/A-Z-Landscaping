@@ -21,7 +21,11 @@
 
 .abt-head {
     font-size: 35px;
-    padding-top: 20px;
+    padding-top: 50px;
+}
+
+#first-abt-head {
+    padding-top: 70px;
 }
 
 .first-p {
