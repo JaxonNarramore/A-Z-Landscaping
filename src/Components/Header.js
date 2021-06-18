@@ -58,7 +58,7 @@ export default function Header() {
                 <div className='txt-div'>
                     <p id='onehead' className='header-txt'>A-Z LANDSCAPE</p>
                     <p className='header-txt'>& MAINTENENCE</p>
-                    <p className='sub-header'>SERVING CENTRAL TEXAS AND SURROUNDING AREAS</p>
+                    <p className='sub-header'>SERVING WILLAIMSON & TRAVIS COUNTY</p>
                     <div className='header-buttons'>
                         <Link id='buttonid' to='quote' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Get A Quote</button></Link>
                         <Link id='buttonid' to='servicez' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Our Services</button></Link>

@@ -44,7 +44,7 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
     justify-content: space-evenly;
 }
 
@@ -54,6 +54,7 @@
     grid-gap: 130px;
     padding-top: 20px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .services3 {
@@ -72,10 +73,14 @@
 
 .service-img {
     object-fit: cover;
-    width: 300px;
-    height: 190px;
-    border-radius: 2%;
-    box-shadow: 10px 10px 8px #888888;
+    width: 350px;
+    height: 240px;
+}
+
+.imgz {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
 }
 
 .head1 {
@@ -85,6 +90,7 @@
 .head2 {
     font-size: 40px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 #hard-div {
@@ -109,11 +115,10 @@
 
 .col-p {
     font-size: 20px;
-    font-weight: 600;
 }
 
 .col {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1260px) {

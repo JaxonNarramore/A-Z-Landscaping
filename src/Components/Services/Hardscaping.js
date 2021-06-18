@@ -13,29 +13,51 @@ export default function Hardscaping() {
             <div class="services">
                 <div class="col">
                     <p className='col-p'>Patios</p>
-                    <img className='service-img' src="Images/patio.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Fire Pits</p>
-                    <img className='service-img' src="Images/firepit.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Retaining/Seating Walls</p>
-                    <img className='service-img' src="Images/retainingwall.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Walkways</p>
-                    <img className='service-img' src="Images/walkway.jpg" alt="" />
                 </div>
             </div>
             <div class="services2">
                 <div class="col">
                     <p className='col-p'>Custom Mailboxes</p>
-                    <img className='service-img' src="Images/mailbox.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Custom Garden Walls</p>
-                    <img className='service-img' src="Images/gardenwall.jpg" alt="" />
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
                 </div>
             </div>
         </div>

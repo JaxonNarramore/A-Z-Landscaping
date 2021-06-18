@@ -10,18 +10,46 @@ export default function MasonryAndStone() {
                 {/* <p className='head-txt'>inset text here</p> */}
             </div>
             <hr className='divider' />
-            <div class="services4">
+            <div class="services">
                 <div class="col">
                     <p className='col-p'>Flower Bed Bordering</p>
-                    <img className='service-img' src="Images/bordering.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Flower Bed Columns</p>
-                    <img className='service-img' src="Images/columns.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Mailboxes</p>
-                    <img className='service-img' src="Images/mailbox.jpg" alt="" />
+                </div>
+                <div class="col">
+                    <p className='col-p'>& More</p>
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
                 </div>
             </div>
         </div>

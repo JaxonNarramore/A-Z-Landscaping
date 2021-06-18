@@ -15,28 +15,50 @@ export default function Excavation() {
             <div class="services">
                 <div class="col">
                     <p className='col-p'>Grading</p>
-                    <img className='service-img' src="Images/grading.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Digging</p>
-                    <img className='service-img' src="Images/digging.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Soil Importing & Haul Away</p>
-                    <img className='service-img' src="Images/soil.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Pool & Storage Pads</p>
-                    <img className='service-img' src="Images/pool.jpg" alt="" />
                 </div>
             </div>
             <div class="services2">
                 <div class="col">
                     <p className='col-p'>Water & Eletric Line Trenching</p>
-                    <img className='service-img' src="Images/trenching.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Driveway Installation & Extensions</p>
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
                     <img className='service-img' src="Images/driveway.JPG" alt="" />
                 </div>
             </div>

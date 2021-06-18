@@ -14,19 +14,43 @@ export default function Maintenence() {
             <div class="services">
                 <div class="col">
                     <p className='col-p'>Commercial Maintence Plans</p>
-                    <img className='service-img' src="Images/commercial.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Residential Maintence Plans</p>
-                    <img className='service-img' src="Images/redidential.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Bi-Weekly & Monthly Plans</p>
-                    <img className='service-img' src="Images/monthly.jpg" alt="" />
                 </div>
                 <div class="col">
                     <p className='col-p'>Seasonal Clean Ups</p>
-                    <img className='service-img' src="Images/seasonal.jpg" alt="" />
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+            </div>
+            <div className="imgz">
+                <div className='col-image'>
+                    <img className='service-img' src="Images/plant.jpeg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/gas.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/grading.jpg" alt="" />
+                </div>
+                <div className='col-image'>
+                    <img className='service-img' src="Images/driveway.JPG" alt="" />
                 </div>
             </div>
         </div>
